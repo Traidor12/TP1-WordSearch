@@ -1,0 +1,27 @@
+.margin{
+    background-color: #f1f0f0;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    font-size: smaller;
+    color: grey;
+    width:  1000px;
+    height: 800px;
+    margin: 15px;
+    border: 3px solid var(--globalColor);
+  }
+
+  #WS{
+    width: 100%;
+    height: 100%;
+    display:grid;
+    grid-template-columns: repeat(8, auto);
+    border: 1px solid black;
+  }
+
+  #WS.avancado{
+    grid-template-columns: repeat(13, auto);
+  }
+
+  #WS.intermedio{
+    grid-template-columns: repeat(10, auto);
+  }

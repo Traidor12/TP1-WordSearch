@@ -1,0 +1,9 @@
+.cell{
+    justify-self: center;
+    align-self: center;
+    border-radius: 50%;
+    width: 75px;
+    height: 75px;
+    border: 1px;
+    font-size: 30px;
+}
